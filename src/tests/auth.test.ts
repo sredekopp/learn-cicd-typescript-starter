@@ -6,7 +6,7 @@ describe("api", () => {
   test("parse authorization header", () => {
     const testKey = "TestKey";
     const headers: IncomingHttpHeaders = {
-        "authorization": `ApiKey ${testKey}`
+      authorization: `ApiKey ${testKey}`,
     };
     const apiKey = getAPIKey(headers);
     expect(apiKey).toEqual(testKey);
