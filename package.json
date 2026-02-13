@@ -16,7 +16,6 @@
     "test": "vitest --run"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.9.0",
